@@ -2,7 +2,7 @@ This model is a sales forecast model using a multiple linear regression model Ju
 
 These features were chosen because the sales seamed very seasonal from September to December. This thought to be due to holiday gift purchases and hunting season purchases overlapping. The lack of more features was also due to the fact that the company who commissioned the work did not engage heavily in any sort of marketing, price promotions, or any activity that would give me another feature that is indicative of sales.
 
-The primary reason for this forecast was to see the trends in sales and look at which marketing tactics to engage in. The primary tactics available to the owner are price promotions, Amazon ad placements, and social media branding.
+There were 2 primary reasons for this forecast: to ensure that management knows how to handle inventory throughout the year and to look at when some marketing tactics may be most effective. The primary tactics available to the owner are price promotions, Amazon ad placements, and social media branding.
 
 In this repository you will find a variety of files. The files labeled with the years 2016 - 2022 are the original .csv files pulled from the Amazon FBA site. The sales files contained individual purchases not time based sales so the sales were aggregated into days in Excel. The remaining features and preprocessing were done in Excel as well. The final file given to the Jupyter notebook was sling_data_jupyter. From here, you can follow the comments in the notebook and see how the model was defined, evaluated and employed. 
 
